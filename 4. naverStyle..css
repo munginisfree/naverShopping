@@ -1,0 +1,88 @@
+@import url(../../common.css);
+
+body{
+  background-color: #e7ecf3;
+}
+
+#wrapper{
+  font-size: 15px;
+  background-color: #fff;
+  width: 60%;
+  min-width: 700px;
+  margin: 10% auto;
+  padding: 2%;
+  border-radius: 10px;
+  /* position: relative; */
+}
+#wrapper>*{
+  margin: 3%;
+  width: 90%;
+  padding: 3%;
+}
+
+#wrapper #title{
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 1.5;
+  position: relative;
+}
+#wrapper #title h1{
+  position: relative;
+  bottom: 4.2rem;
+  left: 5rem;
+}
+#wrapper #title a{
+  display: block;
+
+}
+
+#wrapper #shopping{
+  float: left;
+  border: 4px solid #000;
+  position: relative;
+  bottom: 5rem;
+
+}
+
+#wrapper #shopping .items{
+  float: left;
+  border: 4px solid #000;
+  list-style: none;
+
+}
+#wrapper #shopping .items:nth-child(3n+1){
+  clear: both;
+}
+
+
+
+#wrapper #best{
+  float: left;
+  border: 4px solid #000;
+
+}
+
+#wrapper #best .products{
+  width: 30%;
+  height: 20%;
+  margin: 1%;
+  float: left;
+}
+
+#wrapper #best .products:first-child{
+  object-fit: cover;
+
+}
+#wrapper #best .products:nth-of-type(){
+  clear: both;
+}
+
+#wrapper #best .products img{
+  object-fit: ;
+}
+
+#wrapper #move{
+  float: left;
+  border: 4px solid #000;
+
+}
